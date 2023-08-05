@@ -7,8 +7,10 @@ Mars 3- Group From Carnegie Mellon University
 • A pharmaceutical company wants to digitize its business 
 processes to fully take advantage of new technologies. 
 • Six features: 
-• User Management, 
-• Product Catalog, 
-• Prescription Management, 
-• Order Management, and 
-• Analytics and Reporting
+• User Management with Bash
+• Product Catalog with C++
+• Prescription Management with Java
+• Order Management with Java
+• Analytics and Reporting with Python
+
+# Integration using service-oriented architecture
