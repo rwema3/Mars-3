@@ -63,7 +63,7 @@ verify_credentials() {
     password=$2
 
     if ! line=$(grep "^${username}:" "$credentials_file"); then
-        echo "Invalid username"
+        echo "Invalid credentials"
         return 1
     fi
 
@@ -104,6 +104,7 @@ while true; do
 
     case $choice in
         1)
+            echo "==== Login ===="
             get_credentials
             verify_credentials "$user" "$pass"
             ;;
